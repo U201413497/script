@@ -145,7 +145,6 @@ WantedBy=multi-user.target" > /etc/systemd/system/xray.service
   curl -Ls https://raw.githubusercontent.com/U201413497/script/main/naiveproxy/proxychains4.conf -o proxychains4.conf
   mv proxychains4.conf /etc/proxychains4.conf
   cp /etc/resolv.conf.bak /etc/resolv.conf
-  systemctl enable xray.service
   systemctl start caddy xray
   echo -n "your link is vless://$uuid@$domain:443?encryption=none&security=tls&type=ws&path=%2F$path#$domain"
 }
