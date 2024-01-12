@@ -55,8 +55,7 @@ cat >/usr/local/etc/xray/config.json <<-EOF
                     "tls"
                 ]
             }
-        }
-    ],
+        },
     "outbounds": [
     { 
       "tag": "outbound-warp",
@@ -109,8 +108,28 @@ touch /etc/systemd/system/caddy.service
 
   [Install]
   WantedBy=multi-user.target" > /etc/systemd/system/caddy.service
+  touch /etc/systemd/system/xray.service
+  echo "
+  [Unit]
+Description=Xray Service
+Documentation=https://github.com/xtls
+After=network.target nss-lookup.target
+
+[Service]
+User=root
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+NoNewPrivileges=true
+ExecStart=/usr/local/bin/xray run -config /usr/local/etc/xray/config.json
+Restart=on-failure
+RestartPreventExitStatus=23
+LimitNPROC=10000
+LimitNOFILE=1000000
+
+[Install]
+WantedBy=multi-user.target" > /etc/systemd/system/xray.service
   systemctl daemon-reload
-  systemctl enable caddy.service
+  systemctl enable caddy.service xray.service
   curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg |  gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
   echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/cloudflare-client.list
   apt update && apt install -y cloudflare-warp
