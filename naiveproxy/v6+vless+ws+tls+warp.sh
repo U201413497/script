@@ -122,7 +122,7 @@ touch /etc/systemd/system/caddy.service
   warp-cli connect
   sleep 3
   warp-cli enable-always-on
-  curl -Ls https://raw.githubusercontent.com/U201413497/v6-wap-vless-ws-tls-warp/main/proxychains4.conf -o proxychains4.conf
+  curl -Ls https://raw.githubusercontent.com/U201413497/script/main/naiveproxy/proxychains4.conf -o proxychains4.conf
   mv proxychains4.conf /etc/proxychains4.conf
   cp /etc/resolv.conf.bak /etc/resolv.conf
   service v2ray restart
