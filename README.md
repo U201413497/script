@@ -1,2 +1,2 @@
 # script
-Script backup
+swap setting:
