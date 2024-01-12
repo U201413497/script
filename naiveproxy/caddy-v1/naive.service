@@ -1,0 +1,12 @@
+[Unit]
+Description=naiveproxy
+After=network.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/naive -c /etc/naive/config.json
+Restart=always
+RestartPreventExitStatus=23
+
+[Install]
+WantedBy=multi-user.target

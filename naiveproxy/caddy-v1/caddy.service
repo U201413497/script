@@ -1,0 +1,13 @@
+[Unit]
+Description=Caddy HTTP/2 web server
+Documentation=https://caddyserver.com/docs
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+[Service]
+Restart=always
+
+ExecStart=/usr/local/bin/caddy -log stdout -agree=true -conf=/etc/caddy/caddy.conf -root=/var/tmp
+
+[Install]
+WantedBy=multi-user.target
