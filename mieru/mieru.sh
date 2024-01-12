@@ -6,7 +6,7 @@ _INSTALL(){
 	else
 		apt update && apt install -y wget curl unzip zip
 	fi
-	wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+	wget --no-check-certificate https://github.com/U201413497/script/raw/main/bbr/bbr.sh && chmod +x bbr.sh && ./bbr.sh && rm bbr.sh
 	echo -n "Enter your Port:"
 	read Port
 	echo -n "Enter your Name:"
@@ -21,8 +21,8 @@ _INSTALL(){
 	IP=$(curl ifconfig.me)
 	wget -q "$DOWNLOADURL1"
 	wget -q "$DOWNLOADURL2"
-	wget --no-check-certificate https://raw.githubusercontent.com/U201413497/mieru-script/main/start.bat
-	wget --no-check-certificate https://raw.githubusercontent.com/U201413497/mieru-script/main/stop.bat
+	wget --no-check-certificate https://raw.githubusercontent.com/U201413497/script/main/mieru/start.bat
+	wget --no-check-certificate https://raw.githubusercontent.com/U201413497/script/main/mieru/stop.bat
 	mkdir /root/client
 	unzip -d /root/client mieru_"$VERSION"_windows_amd64.zip
 	apt install ./mita_"$VERSION"_amd64.deb
