@@ -7,6 +7,7 @@ _INSTALL(){
   wget https://github.com/U201413497/script/releases/download/xray/xray
   wget https://github.com/U201413497/script/releases/download/caddy/caddy
   mv /root/caddy /usr/bin/ && chmod +x /usr/bin/caddy
+  cp /root/xray /usr/local/bin/ && chmod +x /usr/local/bin/xray
   mkdir /etc/caddy
   touch /etc/caddy/Caddyfile
   echo -n "Enter your domain:"
@@ -55,7 +56,8 @@ cat >/usr/local/etc/xray/config.json <<-EOF
                     "tls"
                 ]
             }
-        },
+        }
+    ],
     "outbounds": [
     { 
       "tag": "outbound-warp",
