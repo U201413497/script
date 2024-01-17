@@ -3,8 +3,6 @@
 _INSTALL(){
   cp /etc/resolv.conf /etc/resolv.conf.bak
   echo -e "nameserver 2a01:4f8:c2c:123f::1\nnameserver 2a00:1098:2c::1\nnameserver 2a01:4f9:c010:3f02::1" > /etc/resolv.conf
-  apt install  wget sudo vim gnupg lsb-release proxychains4 socat nginx -y
-  sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/U201413497/script/main/trojan-go/trojan-go-quickstart.sh)"
   echo -n "Enter your domain:"
   read domain
   echo -n "Enter your CF_Key:"
@@ -15,6 +13,8 @@ _INSTALL(){
   read password
   echo -n "Enter your path without /:"
   read path
+  apt install wget sudo vim gnupg lsb-release proxychains4 socat nginx -y
+  sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/U201413497/script/main/trojan-go/trojan-go-quickstart.sh)"
   curl https://get.acme.sh | sh
   cd /root/.acme.sh/
   ./acme.sh --server https://api.buypass.com/acme/directory --register-account --accountemail '$CF_Email'
