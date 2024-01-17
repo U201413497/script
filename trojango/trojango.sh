@@ -14,7 +14,7 @@ _INSTALL(){
   echo -n "Enter your path without /:"
   read path
   apt install wget sudo vim gnupg lsb-release proxychains4 socat nginx -y
-  sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/U201413497/script/main/trojan-go/trojan-go-quickstart.sh)"
+  sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/U201413497/script/main/trojango/trojan-go-quickstart.sh)"
   curl https://get.acme.sh | sh
   cd /root/.acme.sh/
   ./acme.sh --server https://api.buypass.com/acme/directory --register-account --accountemail '$CF_Email'
