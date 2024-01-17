@@ -13,7 +13,7 @@ _INSTALL(){
   read CF_Email
   echo -n "Enter your password:"
   read password
-  echo -n "Enter your path with /:"
+  echo -n "Enter your path without /:"
   read path
   curl https://get.acme.sh | sh
   cd /root/.acme.sh/
@@ -44,7 +44,7 @@ _INSTALL(){
     },
     "websocket": {
       "enabled": true,
-      "path": "$path",
+      "path": "/$path",
       "host": "$domain"
                  },
     "forward_proxy": {
