@@ -11,19 +11,17 @@ _INSTALL(){
   read CF_Key
   echo -n "Enter your CF_Email:"
   read CF_Email
-  echo -n "Enter your email:"
-  read email
   echo -n "Enter your password:"
   read password
   echo -n "Enter your path with /:"
   read path
   curl https://get.acme.sh | sh
   cd /root/.acme.sh/
-  ./acme.sh --server https://api.buypass.com/acme/directory --register-account --accountemail '$email'
+  ./acme.sh --server https://api.buypass.com/acme/directory --register-account --accountemail '$CF_Email'
   export CF_Key="\"$CF_Key"\"
   export CF_Email="\"$CF_Email"\"
   ./acme.sh --server https://api.buypass.com/acme/directory --issue -d $domain --dns dns_cf --force
-  ./acme.sh --install-cert -d panel.848586.xyz  --key-file /etc/trojan-go/private.key --fullchain-file /etc/trojan-go/certificate.crt
+  ./acme.sh --install-cert -d $domain  --key-file /etc/trojan-go/private.key --fullchain-file /etc/trojan-go/certificate.crt
   ./acme.sh  --upgrade  --auto-upgrade
   chmod -R 755 /etc/trojan-go
   wget https://github.com/U201413497/script/releases/download/xray/xray
