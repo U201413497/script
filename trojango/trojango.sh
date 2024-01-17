@@ -50,7 +50,7 @@ _INSTALL(){
     "forward_proxy": {
     "enabled": true,
     "proxy_addr": "127.0.0.1",
-    "proxy_port": 8080,
+    "proxy_port": 8080
                   }
 }
 EOF
