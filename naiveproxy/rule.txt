@@ -1,0 +1,420 @@
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_101_EasyList/filter.txt
+    name: 1
+    id: 1
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_102_ABPindo/filter.txt
+    name: 2
+    id: 2
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_103_BulgarianList/filter.txt
+    name: 3
+    id: 3
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_104_EasyListChina/filter.txt
+    name: 4
+    id: 4
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_105_EasyListCzechAndSlovak/filter.txt
+    name: 5
+    id: 5
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_106_EasyListDutch/filter.txt
+    name: 6
+    id: 6
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_107_EasyListGermany/filter.txt
+    name: 7
+    id: 7
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_108_EasyListHebrew/filter.txt
+    name: 8
+    id: 8
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_109_EasyListItaly/filter.txt
+    name: 9
+    id: 9
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_110_EasyListLithuania/filter.txt
+    name: 10
+    id: 10
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_111_LatvianList/filter.txt
+    name: 11
+    id: 11
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_112_ListeAR/filter.txt
+    name: 12
+    id: 12
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_113_ListeFR/filter.txt
+    name: 13
+    id: 13
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_114_ROList/filter.txt
+    name: 14
+    id: 14
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_115_RUAdList/filter.txt
+    name: 15
+    id: 15
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_116_Wiltteri/filter.txt
+    name: 16
+    id: 16
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_117_PolishSubFilters/filter.txt
+    name: 17
+    id: 17
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_118_EasyPrivacy/filter.txt
+    name: 18
+    id: 18
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_119_IcelandicABPList/filter.txt
+    name: 19
+    id: 19
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_120_AdBlockID/filter.txt
+    name: 20
+    id: 20
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_121_VoidGr/filter.txt
+    name: 21
+    id: 21
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_122_FanboysAnnoyances/filter.txt
+    name: 22
+    id: 22
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_123_FanboysSocialBlockingList/filter.txt
+    name: 23
+    id: 23
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_124_EasyListPortuguese/filter.txt
+    name: 24
+    id: 24
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_200_ABPJapaneseFilters/filter.txt
+    name: 25
+    id: 25
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_201_WebAnnoyancesUltralist/filter.txt
+    name: 26
+    id: 26
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_202_EasyListThailand/filter.txt
+    name: 27
+    id: 27
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_203_hufilter/filter.txt
+    name: 28
+    id: 28
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_204_PeterLowesList/filter.txt
+    name: 29
+    id: 29
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_205_SchacksAdblockPlusListe/filter.txt
+    name: 30
+    id: 30
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_206_Xfiles/filter.txt
+    name: 31
+    id: 31
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_207_AdblockWarningRemovalList/filter.txt
+    name: 32
+    id: 32
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_208_Online_Malicious_URL_Blocklist/filter.txt
+    name: 33
+    id: 33
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_209_ADgkMobileChinalist/filter.txt
+    name: 34
+    id: 34
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_210_Spam404/filter.txt
+    name: 35
+    id: 35
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_211_AntiAdblockKillerReek/filter.txt
+    name: 36
+    id: 36
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_212_RUAdListCounters/filter.txt
+    name: 37
+    id: 37
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_213_RUAdListBitBlock/filter.txt
+    name: 38
+    id: 38
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_214_ABPVNList/filter.txt
+    name: 39
+    id: 39
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_215_FanboysEnancedTrackingList/filter.txt
+    name: 40
+    id: 40
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_216_PolskiFiltr/filter.txt
+    name: 41
+    id: 41
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_217_PolskiFiltrCookies/filter.txt
+    name: 42
+    id: 42
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_218_EstonianList/filter.txt
+    name: 43
+    id: 43
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_219_ChinaListAndEasyList/filter.txt
+    name: 44
+    id: 44
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_220_CJXsAnnoyanceList/filter.txt
+    name: 45
+    id: 45
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_221_PolskiFiltrSocial/filter.txt
+    name: 46
+    id: 46
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_222_ABPPersian/filter.txt
+    name: 47
+    id: 47
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_223_FanboySwedish/filter.txt
+    name: 48
+    id: 48
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_225_fanboyAntifacebook/filter.txt
+    name: 49
+    id: 49
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_226_FanboyVietnamese/filter.txt
+    name: 50
+    id: 50
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_227_List-KR/filter.txt
+    name: 51
+    id: 51
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_228_xinggsf/filter.txt
+    name: 52
+    id: 52
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_229_IdontCareAboutCookies/filter.txt
+    name: 53
+    id: 53
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_230_FanboyEspanol/filter.txt
+    name: 54
+    id: 54
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_231_EasyListSpanish/filter.txt
+    name: 55
+    id: 55
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_232_KADPrzekrety/filter.txt
+    name: 56
+    id: 56
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_233_AdblockListFinland/filter.txt
+    name: 57
+    id: 57
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_234_ROList2/filter.txt
+    name: 58
+    id: 58
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_235_PersianBlocker/filter.txt
+    name: 59
+    id: 59
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_236_ROad-Block/filter.txt
+    name: 60
+    id: 60
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_237_PolishAnnoyance/filter.txt
+    name: 61
+    id: 61
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_238_PolskiFiltrAdg/filter.txt
+    name: 62
+    id: 62
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_239_FanboyAntifonts/filter.txt
+    name: 63
+    id: 63
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_240_BarbBlock/filter.txt
+    name: 64
+    id: 64
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_241_FanboyCookiemonster/filter.txt
+    name: 65
+    id: 65
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_242_NoCoin/filter.txt
+    name: 66
+    id: 66
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_243_FrellwitSwedish/filter.txt
+    name: 67
+    id: 67
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_244_YousList/filter.txt
+    name: 68
+    id: 68
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_245_AlleBlock/filter.txt
+    name: 69
+    id: 69
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_246_EasyListPolish/filter.txt
+    name: 70
+    id: 70
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_247_PolishRssFilters/filter.txt
+    name: 71
+    id: 71
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_249_NorwegianList/filter.txt
+    name: 72
+    id: 72
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_250_DandelionSproutAnnoyances/filter.txt
+    name: 73
+    id: 73
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_251_LegitimateURLShortener/filter.txt
+    name: 74
+    id: 74
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_252_DandelionSproutSerboCroatian/filter.txt
+    name: 75
+    id: 75
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_253_IndianList/filter.txt
+    name: 76
+    id: 76
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_254_MacedonianadBlockFilters/filter.txt
+    name: 77
+    id: 77
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_255_Phishing_URL_Blocklist/filter.txt
+    name: 78
+    id: 78
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_256_Scam_Blocklist/filter.txt
+    name: 79
+    id: 79
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_257_uBlock_Origin_Badware_risks/filter.txt
+    name: 80
+    id: 80
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
+    name: 81
+    id: 81
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+    name: 82
+    id: 82
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_12_Safari/filter.txt
+    name: 83
+    id: 83
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_13_Turkish/filter.txt
+    name: 84
+    id: 84
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+    name: 85
+    id: 85
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
+    name: 86
+    id: 86
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt
+    name: 87
+    id: 87
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+    name: 88
+    id: 88
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt
+    name: 89
+    id: 89
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt
+    name: 90
+    id: 90
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt
+    name: 91
+    id: 91
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt
+    name: 92
+    id: 92
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt
+    name: 93
+    id: 93
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+    name: 94
+    id: 94
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt
+    name: 95
+    id: 95
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_23_Ukrainian/filter.txt
+    name: 96
+    id: 96
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_24_QuickFixes/filter.txt
+    name: 97
+    id: 97
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+    name: 98
+    id: 98
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+    name: 99
+    id: 99
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+    name: 100
+    id: 100
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt
+    name: 101
+    id: 101
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt
+    name: 102
+    id: 102
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt
+    name: 103
+    id: 103
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt
+    name: 104
+    id: 104
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
+    name: 105
+    id: 105
