@@ -1,0 +1,13 @@
+{
+  "type": "wireguard",
+  "tag": "wireguard",
+  "server": "127.0.0.1",
+  "server_port": 1080,
+  "local_address": [
+    "10.0.0.2/32"
+  ],
+  "private_key": "YNXtAzepDqRv9H52osJVDQnznT5AM11eCK3ESpwSt04=",
+  "peer_public_key": "Z1XXLsKYkYxuiYjJIkRvtIKFepCYHTgON+GwPq7SOV4=",
+  "mtu": 1420,
+  "network": "tcp"
+}
