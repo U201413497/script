@@ -1,0 +1,15 @@
+  "route": {
+    "rules": [
+      {
+        "domain": [
+          "*.chatgpt.com",
+          "*.openai.com"
+        ],
+        "domain_keyword": [
+          "chatgpt",
+          "openai"
+        ],
+        "outbound": "direct"
+      }
+    ]
+  }
