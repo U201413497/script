@@ -2,7 +2,7 @@
 
 _INSTALL(){
 apt update && apt install unzip
-tsocks wget -O nezha-agent.zip https://github.com/nezhahq/agent/releases/latest/download/nezha-agent_linux_arm.zip
+wget -O nezha-agent.zip https://github.com/nezhahq/agent/releases/latest/download/nezha-agent_linux_arm.zip
 unzip nezha-agent.zip -d /usr/local/bin/nezha
 rm nezha-agent.zip
 touch /usr/local/bin/config.yml
