@@ -6,3 +6,4 @@
 ## IPv6 Only VPS to set up naiveproxy: apt update && apt install -y curl && bash <(curl -Ls https://raw.githubusercontent.com/U201413497/script/main/naiveproxy/v6naiveproxy.sh)
 ## scaleway ipv6 Only VPS to setup naiveproxy echo -e "nameserver 2a01:4f8:c2c:123f::1" > /etc/resolv.conf && apt install -y curl && bash <(curl -Ls https://raw.githubusercontent.com/U201413497/script/main/scaleway/ipv6-caddy2-xray-warp-naiveproxy.sh)
 ## scaleway to debian 12 wget -O- https://github.com/U201413497/script/releases/download/debian12/a.gz | gunzip | dd of=/dev/sdb status=progress root abcd@1234 IPv4
+## Nezha-End apt install -y curl && bash <(curl -Ls https://raw.githubusercontent.com/U201413497/script/main/nezha/nezha.sh) 
