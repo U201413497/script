@@ -1,7 +1,7 @@
 #!/bin/bash
 
 _INSTALL(){
-apt update && apt install unzip uuid-runtime
+apt update && apt install unzip
 wget -O nezha-agent.zip https://github.com/nezhahq/agent/releases/latest/download/nezha-agent_linux_amd64.zip
 unzip nezha-agent.zip -d /usr/local/bin/nezha
 touch /usr/local/bin/config.yml
