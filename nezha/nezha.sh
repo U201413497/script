@@ -27,7 +27,7 @@ server: $server
 skip_connection_count: false
 skip_procs_count: false
 temperature: false
-tls: true 
+tls: false 
 use_gitee_to_upgrade: false
 use_ipv6_country_code: true
 uuid: $uuid
