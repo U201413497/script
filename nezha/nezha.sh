@@ -1,7 +1,7 @@
 #!/bin/bash
 
 _INSTALL(){
-apt update && apt install unzip
+apt update && apt install unzip wget
 wget -O nezha-agent.zip https://github.com/nezhahq/agent/releases/latest/download/nezha-agent_linux_amd64.zip
 unzip nezha-agent.zip -d /usr/local/bin/nezha
 rm nezha-agent.zip
