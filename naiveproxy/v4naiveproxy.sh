@@ -1,9 +1,9 @@
 #!/bin/bash
 
 _INSTALL(){
-  cp /etc/resolv.conf /etc/resolv.conf.bak
-  echo -e "nameserver 2a01:4f8:c2c:123f::1\nnameserver 2a00:1098:2c::1\nnameserver 2a01:4f9:c010:3f02::1" > /etc/resolv.conf
-  apt update && apt install curl wget sudo vim gnupg lsb-release proxychains4 -y
+  echo -e "nameserver 8.8.8.8\nnameserver 2001:4860:4860:0:0:0:0:8888" > /etc/resolv.conf
+  chattr +i /etc/resolv.conf
+  apt update && apt install wget sudo -y
   echo -n "Enter your domain:"
   read domain
   echo -n "Enter your username:"
@@ -12,7 +12,6 @@ _INSTALL(){
   read password
   echo -n "Enter your email:"
   read email
-  wget https://github.com/U201413497/script/releases/download/xray/xray
   wget https://github.com/U201413497/script/releases/download/caddy/caddy
   mv /root/caddy /usr/bin/ && chmod +x /usr/bin/caddy
   mkdir /etc/caddy
@@ -24,8 +23,7 @@ _INSTALL(){
             basic_auth $username $password
             hide_ip
             hide_via
-            probe_resistance secert.localhost
-            upstream socks5://127.0.0.1:8080
+            probe_resistance
                        }
             reverse_proxy https://demo.cloudreve.org {
             header_up Host {upstream_hostport}
@@ -49,92 +47,10 @@ _INSTALL(){
 
   [Install]
   WantedBy=multi-user.target" > /etc/systemd/system/caddy.service
-  mv /root/xray /usr/local/bin/ && chmod +x /usr/local/bin/xray
-  mkdir /usr/local/etc/xray && touch /usr/local/etc/xray/config.json
-  echo "
-  {
-  "\"inbounds"\": [
-    {
-      "\"tag"\": "\"socks"\",
-      "\"port"\": 8080,
-      "\"listen"\": "\"127.0.0.1"\",
-      "\"protocol"\": "\"socks"\",
-      "\"settings"\": {
-          "\"udp"\": true
-                  }
-    }
-  ],
-  "\"outbounds"\": [
-    { 
-      "\"tag"\": "\"outbound-warp"\",
-      "\"protocol"\": "\"socks"\",
-      "\"settings"\": {
-        "\"servers"\": [
-          {
-            "\"address"\": "\"127.0.0.1"\",
-            "\"port"\": 9090
-          }
-        ]
-      }
-    },
-    {
-      "\"tag"\": "\"direct"\",
-      "\"protocol"\": "\"freedom"\"
-    }
-  ],
-  "\"routing"\": {
-    "\"domainStrategy"\": "\"IPOnDemand"\",
-    "\"rules"\": [
-      {
-        "\"type"\": "\"field"\",
-        "\"ip"\": [ "\"::/0"\" ],
-        "\"outboundTag"\": "\"direct"\"
-      },
-      {
-        "\"type"\": "\"field"\",
-        "\"ip"\": [ "\"0.0.0.0/0"\" ],
-        "\"outboundTag"\": "\"outbound-warp"\"
-      }
-    ]
-  }
-}" > /usr/local/etc/xray/config.json
-  touch /etc/systemd/system/xray.service
-  echo "
-[Unit]
-Description=Xray Service
-Documentation=https://github.com/xtls
-After=network.target nss-lookup.target
-
-[Service]
-User=root
-CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-NoNewPrivileges=true
-ExecStart=/usr/local/bin/xray run -config /usr/local/etc/xray/config.json
-Restart=on-failure
-RestartPreventExitStatus=23
-LimitNPROC=10000
-LimitNOFILE=1000000
-
-[Install]
-WantedBy=multi-user.target" > /etc/systemd/system/xray.service
   systemctl daemon-reload
-  systemctl enable caddy.service xray.service
-  curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg |  gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
-  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/cloudflare-client.list
-  apt update && apt install -y cloudflare-warp
-  warp-cli register
-  sleep 3
-  warp-cli set-mode proxy
-  sleep 3
-  warp-cli set-proxy-port 9090
-  sleep 3
-  warp-cli connect
-  sleep 3
-  curl -Ls https://raw.githubusercontent.com/U201413497/script/main/naiveproxy/proxychains4.conf -o proxychains4.conf
-  mv proxychains4.conf /etc/proxychains4.conf
-  cp /etc/resolv.conf.bak /etc/resolv.conf
-  systemctl start caddy.service xray.service
+  systemctl enable caddy.service
+  echo net.core.default_qdisc=fq >> /etc/sysctl.conf && echo net.ipv4.tcp_congestion_control=bbr >> /etc/sysctl.conf && sysctl -p
+  systemctl start caddy.service
 }
 
 _INSTALL
