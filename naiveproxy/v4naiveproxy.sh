@@ -3,7 +3,6 @@
 _INSTALL(){
   echo -e "nameserver 8.8.8.8\nnameserver 2001:4860:4860:0:0:0:0:8888" > /etc/resolv.conf
   chattr +i /etc/resolv.conf
-  apt update && apt install wget sudo -y
   echo -n "Enter your domain:"
   read domain
   echo -n "Enter your username:"
