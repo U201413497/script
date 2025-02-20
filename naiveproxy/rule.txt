@@ -486,3 +486,19 @@
     url: https://easylist-downloads.adblockplus.org/v3/full/easyprivacy.txt
     name: 122
     id: 122
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/fanboy-notifications.txt
+    name: 123
+    id: 123
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/fanboy-social.txt
+    name: 124
+    id: 124
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt
+    name: 125
+    id: 125
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/global-filters+easylist.txt
+    name: 126
+    id: 126
