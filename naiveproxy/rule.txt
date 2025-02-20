@@ -470,3 +470,19 @@
     url: https://easylist-downloads.adblockplus.org/v3/full/easylistlithuania+easylist.txt
     name: 118
     id: 118
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylistpolish+easylist.txt
+    name: 119
+    id: 119
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylistportuguese+easylist.txt
+    name: 120
+    id: 120
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylistspanish+easylist.txt
+    name: 121
+    id: 121
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easyprivacy.txt
+    name: 122
+    id: 122
