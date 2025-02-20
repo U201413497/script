@@ -418,3 +418,31 @@
     url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
     name: 105
     id: 105
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/abp-filters-anti-cv.txt
+    name: 106
+    id: 106
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/abpindo+easylist.txt
+    name: 107
+    id: 107
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/abpvn+easylist.txt
+    name: 108
+    id: 108
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/bulgarian_list+easylist.txt
+    name: 109
+    id: 109
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/dandelion_sprouts_nordic_filters+easylist.txt
+    name: 110
+    id: 110
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylist.txt
+    name: 111
+    id: 111
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylistchina+easylist.txt
+    name: 112
+    id: 112
