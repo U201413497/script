@@ -446,3 +446,7 @@
     url: https://easylist-downloads.adblockplus.org/v3/full/easylistchina+easylist.txt
     name: 112
     id: 112
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylistczechslovak+easylist.txt
+    name: 113
+    id: 113
