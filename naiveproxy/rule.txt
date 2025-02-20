@@ -518,3 +518,27 @@
     url: https://easylist-downloads.adblockplus.org/v3/full/japanese-filters+easylist.txt
     name: 130
     id: 130
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/koreanlist+easylist.txt
+    name: 131
+    id: 131
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/latvianlist+easylist.txt
+    name: 132
+    id: 132
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/liste_ar+liste_fr+easylist.txt
+    name: 133
+    id: 133
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/rolist+easylist.txt
+    name: 134
+    id: 134
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/ruadlist+easylist.txt
+    name: 135
+    id: 135
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/turkish-filters+easylist.txt
+    name: 136
+    id: 136
