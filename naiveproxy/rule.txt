@@ -450,3 +450,11 @@
     url: https://easylist-downloads.adblockplus.org/v3/full/easylistczechslovak+easylist.txt
     name: 113
     id: 113
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylistdutch+easylist.txt
+    name: 114
+    id: 114
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/easylistgermany+easylist.txt
+    name: 115
+    id: 115
