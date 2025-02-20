@@ -502,3 +502,19 @@
     url: https://easylist-downloads.adblockplus.org/v3/full/global-filters+easylist.txt
     name: 126
     id: 126
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/hufilter+easylist.txt
+    name: 127
+    id: 127
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/i_dont_care_about_cookies.txt
+    name: 128
+    id: 128
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/indianlist+easylist.txt
+    name: 129
+    id: 129
+  - enabled: true
+    url: https://easylist-downloads.adblockplus.org/v3/full/japanese-filters+easylist.txt
+    name: 130
+    id: 130
