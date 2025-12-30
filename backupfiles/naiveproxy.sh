@@ -8,4 +8,5 @@ do
     echo "[$(date)] 警告：NaiveProxy 已停止"
     docker restart trojan-panel-core
   fi
+  sleep 2
 done
