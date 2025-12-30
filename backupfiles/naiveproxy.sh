@@ -7,6 +7,6 @@ do
     echo "[$(date)] NaiveProxy 正在运行"
   else
     echo "[$(date)] 警告：NaiveProxy 已停止"
-    docker restart naiveproxy
+    docker restart trojan-panel-core
   fi
 done
