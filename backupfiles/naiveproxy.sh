@@ -7,6 +7,6 @@ do
     echo "[$(date)] NaiveProxy 正在运行"
   else
     echo "[$(date)] 警告：NaiveProxy 已停止"
-    docker start naiveproxy
+    docker restart naiveproxy
   fi
 done
