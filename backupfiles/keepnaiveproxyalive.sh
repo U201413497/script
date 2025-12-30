@@ -8,7 +8,7 @@ _INSTALL(){
   Description=Keep naiveproxy alive
 
   [Service]
-  ExecStart=/bin/bash -c "while true; do /root/naiveproxy.sh; sleep 2; done"
+  ExecStart=/root/naiveproxy.sh
   Restart=always
 
   [Install]
