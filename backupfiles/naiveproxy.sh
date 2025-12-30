@@ -1,8 +1,7 @@
 #!/usr/bin/bash
 while true
 do
-  if pgrep -x "naiveproxy"
- > /dev/null
+  if pgrep -x "naiveproxy"> /dev/null
   then
     echo "[$(date)] NaiveProxy 正在运行"
   else
