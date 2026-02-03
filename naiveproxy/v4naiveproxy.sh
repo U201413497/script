@@ -12,7 +12,7 @@ _INSTALL(){
   read password
   echo -n "Enter your email:"
   read email
-  wget https://github.com/U201413497/script/releases/download/caddy/caddy
+  wget https://github.com/U201413497/script/releases/download/caddy291go124/caddy
   mv /root/caddy /usr/bin/ && chmod +x /usr/bin/caddy
   mkdir /etc/caddy
   touch /etc/caddy/Caddyfile
