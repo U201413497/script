@@ -106,6 +106,8 @@ wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filter
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt -O /root/AdGuardHome/data/filters/103.txt
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt -O /root/AdGuardHome/data/filters/104.txt
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt -O /root/AdGuardHome/data/filters/105.txt
+wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_258_Block_Outsider_Intrusion_into_LAN/filter.txt -O /root/AdGuardHome/data/filters/106.txt
+wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_259_Dandelion_Sprout's_Anti-Malware_List/filter.txt -O /root/AdGuardHome/data/filters/107.txt
 }
 
 _INSTALL
