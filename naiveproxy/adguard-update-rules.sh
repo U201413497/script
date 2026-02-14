@@ -42,7 +42,7 @@ wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filter
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_214_ABPVNList/filter.txt -O /root/AdGuardHome/data/filters/39.txt
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_215_FanboysEnancedTrackingList/filter.txt -O /root/AdGuardHome/data/filters/40.txt
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_216_PolskiFiltr/filter.txt -O /root/AdGuardHome/data/filters/41.txt
-wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_217_PolskiFiltrCookies/filter.txt -O /root/AdGuardHome/data/filters42.txt
+wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_217_PolskiFiltrCookies/filter.txt -O /root/AdGuardHome/data/filters/42.txt
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_218_EstonianList/filter.txt -O /root/AdGuardHome/data/filters/43.txt
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_219_ChinaListAndEasyList/filter.txt -O /root/AdGuardHome/data/filters/44.txt
 wget https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/ThirdParty/filter_220_CJXsAnnoyanceList/filter.txt -O /root/AdGuardHome/data/filters/45.txt
